@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">IEAPP</string>
+    <string name="error_message_name">error name</string>
+    <string name="error_message_email">error email</string>
+    <string name="error_message_password">error pw</string>
+    <string name="error_password_match">pw not match</string>
+    <string name="success_message">successful refistration</string>
+    <string name="error_email_exists">email already used</string>
+    <string name="error_valid_email_password">error_valid_mail</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,6 +1,5 @@
-package com.example.sdavi.ieapp;
+package com.example.sdavi.ieapp.Activityes;
 
-import android.content.Intent;
 import android.support.design.widget.Snackbar;
 import android.support.v4.widget.NestedScrollView;
 import android.support.v7.app.AppCompatActivity;
@@ -15,6 +14,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.example.sdavi.ieapp.R;
 import com.example.sdavi.ieapp.helper.InputValidation;
 import com.example.sdavi.ieapp.model.User;
 import com.example.sdavi.ieapp.sql.DatabaseHelper;

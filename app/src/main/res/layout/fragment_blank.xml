@@ -2,12 +2,61 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.sdavi.ieapp.BlankFragment">
+    android:id="@+id/first_fragment"
+    tools:context="com.example.sdavi.ieapp.Activityes.BlankFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="strtgdb gfhrhg" />
 
+
+    <Button
+        android:id="@+id/calendar_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="50dp"
+        android:text="Task Manager"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorGreen"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="110dp"
+        android:text="Somethig...."
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorGreen"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="170dp"
+        android:text="Somethig...."
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorGreen"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="230dp"
+        android:text="Somethig...."
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorGreen"/>
+    <Button
+        android:id="@+id/button4"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="290dp"
+        android:text="Somethig...."
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorGreen"/>
 </FrameLayout>

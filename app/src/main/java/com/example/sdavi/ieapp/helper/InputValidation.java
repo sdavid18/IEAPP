@@ -2,7 +2,6 @@ package com.example.sdavi.ieapp.helper;
 
 import android.app.Activity;
 import android.content.Context;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Patterns;
 import android.view.View;
 import android.view.WindowManager;
@@ -10,8 +9,6 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.Toast;
-
-import com.example.sdavi.ieapp.MainActivity;
 
 /**
  * Created by sdavi on 2017. 12. 03..

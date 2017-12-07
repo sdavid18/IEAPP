@@ -1,9 +1,10 @@
-package com.example.sdavi.ieapp;
+package com.example.sdavi.ieapp.Activityes;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.Toast;
+
+import com.example.sdavi.ieapp.R;
 
 public class LogoutActivity extends AppCompatActivity {
 

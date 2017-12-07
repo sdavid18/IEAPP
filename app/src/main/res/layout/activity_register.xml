@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_2"
-    tools:context="com.example.sdavi.ieapp.MainActivity">
+    tools:context="com.example.sdavi.ieapp.Activityes.MainActivity">
 
 
     <LinearLayout
@@ -43,7 +43,7 @@
                 android:id="@+id/textInputEditTextEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Type Email Address Again"
+                android:hint="Type Email Address"
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
                 android:textColor="@color/colorWhite"

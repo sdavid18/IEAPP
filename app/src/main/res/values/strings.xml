@@ -1,16 +1,25 @@
 <resources>
     <string name="app_name">IEAPP</string>
     <string name="error_message_name">error name</string>
-    <string name="error_message_email">error email</string>
-    <string name="error_message_password">error pw</string>
+    <string name="error_message_email">Wrong Email</string>
+    <string name="error_message_password">Wrong password</string>
     <string name="error_password_match">pw not match</string>
-    <string name="success_message">successful refistration</string>
-    <string name="error_email_exists">email already used</string>
-    <string name="error_valid_email_password">error_valid_mail</string>
+    <string name="success_message">Successful Registration</string>
+    <string name="error_email_exists">This email already used.</string>
+    <string name="error_valid_email_password">Wrong password or email.</string>
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="remove_completed_tasks">Remove Completed Tasks</string>
+    <string name="no_tasks">No tasks.</string>
+    <string name="tasks">Tasks</string>
+    <string name="add_task">Add Task</string>
+    <string name="cancel_task">Cancel</string>
+    <string name="unsaved_changes_title">Unsaved Changes</string>
+    <string name="unsaved_changes_message">Would you like to add this task?</string>
+    <string name="discard">Discard</string>
 
 </resources>

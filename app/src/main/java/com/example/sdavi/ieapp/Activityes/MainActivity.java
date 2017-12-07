@@ -1,4 +1,4 @@
-package com.example.sdavi.ieapp;
+package com.example.sdavi.ieapp.Activityes;
 
 import android.content.Intent;
 import android.support.design.widget.Snackbar;
@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -16,8 +15,10 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.example.sdavi.ieapp.R;
 import com.example.sdavi.ieapp.helper.InputValidation;
 import com.example.sdavi.ieapp.sql.DatabaseHelper;
+
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -112,7 +113,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             emptyInputEditText();
             startActivity(accountsIntent);
         } else {
-            Snackbar.make(nestedScrollView, getString(R.string.error_valid_email_password), Snackbar.LENGTH_LONG).show();
+            Snackbar.make(nestedScrollView, getString(R.string.error_valid_email_password), Snackbar.LENGTH_SHORT).show();
         }
     }
 
